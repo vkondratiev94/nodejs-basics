@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkondratiev94/nodejs-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkondratiev94/nodejs-basics/issues"
+  },
+  "homepage": "https://github.com/vkondratiev94/nodejs-basics#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

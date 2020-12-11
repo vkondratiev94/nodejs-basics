@@ -1,5 +1,3 @@
-const http = require("http")
-
 const express = require('express')
 
 const app = express()
@@ -14,6 +12,7 @@ app.use((req, res, next) => {
   res.send('<h1>Hello from Express!</h1>')
 })
 
-const server = http.createServer(app)
-
-server.listen(3001)
+const PORT = 3000
+app.listen(PORT, () => {
+  console.log(`Server is running on the port ${PORT}`)
+})
